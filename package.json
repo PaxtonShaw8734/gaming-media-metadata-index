@@ -1,0 +1,7 @@
+{
+  "name": "gaming-media-metadata-index",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"typecheck": "tsc --noEmit", "test": "node --import tsx test/media_index.test.ts", "start": "node --import tsx src/media_index.ts"},
+  "dependencies": {"zod": "^3.23.8", "tsx": "^4.19.2", "typescript": "^5.6.3"}
+}
